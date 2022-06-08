@@ -40,7 +40,7 @@ public class Operators {
             System.out.println(x>y?"y is min ":"x is min");
 
 
-    main("");
+    main("The output is ");
     main("");
         }
 
@@ -48,6 +48,7 @@ public class Operators {
         {
             int b=12;
             System.out.println("The output is "+b);
+
 
         }
     }
