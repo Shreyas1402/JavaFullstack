@@ -17,6 +17,6 @@ public class WhileLoop {
                     power--;
 
                 }
-        System.out.println(result);
+        System.out.println("");
     }
 }
