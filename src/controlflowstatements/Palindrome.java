@@ -7,6 +7,7 @@ public class Palindrome {
         Scanner sc=new Scanner(System.in);
         System.out.println("ENTER THE NUMBER YOU WANT TO CHECK: ");
         int no= sc.nextInt();
+        int no1=no;
         int rem,rev=0;
         // to reverse the number
         while (no>0){
@@ -20,12 +21,12 @@ public class Palindrome {
         }
         System.out.println(rev);
 
-        if(rev==no){
-            System.out.println("THE NUMBER YOU HAVE ENTERED IS A PALINDROME:"+"\n"+no+"\n"+rev);
+        if(rev==no1){
+            System.out.println("THE NUMBER YOU HAVE ENTERED IS A PALINDROME:"+"\n"+no1+"\n"+rev);
 
         }
         else{
-            System.out.println("THE NUMBER YOU HAVE ENTERED IS  NOT A PALINDROME:"+"\n"+no+"\n"+rev);
+            System.out.println("THE NUMBER YOU HAVE ENTERED IS  NOT A PALINDROME:"+"\n"+no1+"\n"+rev);
         }
 
 

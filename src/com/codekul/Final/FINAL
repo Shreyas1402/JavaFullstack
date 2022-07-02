@@ -1,0 +1,21 @@
+FINAL KEYWORD CAN BE USED:-
+1.variable
+2.method
+3.class
+
+
+1.VARIABLES:-
+ * once intialized we cannot change the value
+ * for some value that is going to remain the same throughout the program.
+ * generally FINAL keyword variables are written in CAPTIAL LETTERS TO IDENTIFIED EASILY
+ *  at the time for decleration of the final variable it is a blank final variable (uninitialized)
+ *  it is initialized in the constructor
+ *  FOR AN STATIC FINAL VARIABLE IT CAN BE DECLARED IN STATIC BLOCK.
+
+ 2.METHOD
+ * WE CANNOT OVERRIDE THE FINAL METHOD.
+ *
+ 3.CLASS
+ * WE CANNOT EXTEND THE CLASS.
+ *
+ *
