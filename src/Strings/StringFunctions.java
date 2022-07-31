@@ -6,32 +6,26 @@ import java.util.Scanner;
 public class StringFunctions {
 
     public static void main(String[] args) {
-        String name="Shreyas";
+        String name="Shreyaspappu";
+        int i=0;
+        int vowel=0;
+        int constant=0;
+        int special=0;
 
-        int length=name.length();
-        System.out.println(length);
+       while(i<name.length()){
+           if(name.charAt(i)=='a'||name.charAt(i)=='e'||name.charAt(i)=='i'||name.charAt(i)=='o'||name.charAt(i)=='u'){
 
-        String us=name.toUpperCase();
-        System.out.println(us);
+               vowel++;
 
-        String ls=us.toLowerCase();
-        System.out.println(ls);
+           }
 
-        String sub=name.substring(0,4);
-        System.out.println(sub);
-
-        System.out.println(name.replace('s','p'));
-
-        System.out.println(name.startsWith("Sh")); // will return true if it matches
-
-        System.out.println(name.indexOf('s',4));
-
-        System.out.println(us.equals("SHREYAS"));
+           else{
+               constant++;
+           }
 
 
-        Scanner a=new Scanner(System.in);
-        String A=a.next();
-        String B=a.next();
+        }
+
 
 
 
