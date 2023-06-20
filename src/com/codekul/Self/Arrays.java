@@ -4,27 +4,29 @@ import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
-        int[] A=new int[7];
-        A[0]=23;
-        A[1]=21;
-        A[2]=22;
-        A[3]=21;
-        A[4]=22;
-        A[5]=21;
-        A[6]=22;
-
-
-
-        Scanner sc =new Scanner(System.in);
-        int n=sc.nextInt();
-        for(int i=0;i<A.length-1;i++){
-            if(n==A[i]){
-                System.out.println("ELEMENT FOUND AT INDEX "+i);
-            }
-        }
-
+      int arr[][]={{1,2,3,1},{4,5,6,2},{7,8,9,3}};
+      int m= arr.length;
+      int n=arr[0].length;
+      int max=0;
+      int min=Integer.MAX_VALUE;
+      int k=0;
+      int l=0;
+      for(int i=0;i<n;i++){
+          int sum=0;
+          for(int j=0;j<m;j++){
+              sum+=arr[j][i];
+          }
+          if(sum>max){
+              k=i;
+              max=sum;
+          }
+          if(sum<min){
+              l=i;
+              min=sum;
+          }
+      }
+        System.out.println("MAX SUM IS: "+max+" at column: "+ k);
+        System.out.println("MIN SUM IS: "+min+" at column: "+ l);
     }
-
 }
-
 

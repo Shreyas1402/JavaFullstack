@@ -44,6 +44,8 @@ import java.util.Scanner;
             Person p2= new Person();
             p2.display("qwert",198,"kothrud",123.456f,"male","asdfiop");
 
+
+
         }
 
 
